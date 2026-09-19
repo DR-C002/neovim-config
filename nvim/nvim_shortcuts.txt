@@ -1,0 +1,60 @@
+====================================================================
+                     NEOVIM KEYBINDINGS CHEATSHEET                  
+====================================================================
+
+[ LEADER KEY ]
+  Space                 Primary Leader Key (<leader>)
+
+[ GENERAL & WINDOW MANAGEMENT ]
+  Space + v             Split window vertically
+  Space + s             Split window horizontally
+  Ctrl  + h             Move to left split window
+  Ctrl  + j             Move to bottom split window
+  Ctrl  + k             Move to top split window
+  Ctrl  + l             Move to right split window
+  Shift + q  (Q)        Close active split window / quit pane
+
+[ TOP BAR - BUFFER NAVIGATION ]
+  Shift + h  (H)        Switch to left buffer tab
+  Shift + l  (L)        Switch to right buffer tab
+  Space + x             Close current file buffer tab
+
+[ FILE EXPLORER (NvimTree) ]
+  Space + f             Toggle file tree sidebar
+  a  (inside tree)      Create new file (or folder if ending with '/')
+  d  (inside tree)      Delete selected file / directory
+  r  (inside tree)      Rename selected file / directory
+  x  (inside tree)      Cut selected item
+  c  (inside tree)      Copy selected item
+  p  (inside tree)      Paste item into folder
+  Enter / o             Open selected file / Expand directory
+
+[ TELESCOPE SEARCH ]
+  Space + e             Search ALL files in workspace (find_files)
+  Space + w             Search code / text inside files (live_grep)
+  Ctrl  + p             Search Git-tracked files only (git_files)
+
+  -- Inside Telescope Search Window:
+  Ctrl + j / Down       Move selection down
+  Ctrl + k / Up         Move selection up
+  Enter                 Open selected file
+  Ctrl + v              Open file in vertical split
+  Ctrl + x              Open file in horizontal split
+  Ctrl + t              Open file in new tab
+  Esc / Ctrl + c        Close search window
+
+[ INTEGRATED TERMINAL ]
+  Space + t             Toggle floating/bottom terminal
+
+[ AUTO-COMPLETION (Insert Mode) ]
+  Tab                   Next completion item / Jump snippet forward
+  Enter                 Confirm completion item
+  Ctrl + Space          Trigger completion menu manually
+  Ctrl + f              Scroll documentation down
+  Ctrl + b              Scroll documentation up
+
+[ CLIPBOARD INTEGRATION ]
+  y                     Yank (Copy) to system clipboard
+  d                     Delete (Cut) to system clipboard
+  p                     Paste from system clipboard
+====================================================================
