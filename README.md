@@ -1,3 +1,20 @@
+## Screenshots
+
+<p align="center">
+  <img src="/home/unknown/Pictures/Screenshots/Screenshot From 2026-09-19 16-28-45.png" width="800">
+</p>
+
+<p align="center">
+  <img src="/home/unknown/Pictures/Screenshots/Screenshot From 2026-09-19 16-28-15.png" width="800">
+</p>
+
+<p align="center">
+  <img src="/home/unknown/Pictures/Screenshots/Screenshot From 2026-09-19 16-28-45.png" width="800">
+</p>
+<p align="center">
+  <img src="/home/unknown/Pictures/Screenshots/Screenshot From 2026-09-19 16-28-45.png" width="800">
+</p>
+
 # ⚡ Neovim Configuration
 
 A modern, lightweight, and developer-focused **Neovim configuration** built around `lazy.nvim`.
@@ -364,3 +381,4 @@ Feel free to fork it, modify it, and build your own Neovim workflow.
 ---
 
 ⭐ If you find this configuration useful, consider giving the repository a star.
+
